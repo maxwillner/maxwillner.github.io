@@ -42,15 +42,22 @@ header nav ul li a {
 
 
 
-.about-me h2 {
+#about-me h2 {
     background-color: grey;
     width: 100%;
     text-align: center;
 }
-.about-me img {
+#about-me img {
     margin-top: 10px;
     height: 450px;
     width: 450px;
+}
+
+#about-me p {
+    width: 25%;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 50px;
 }
 
 .bio {
@@ -59,4 +66,30 @@ header nav ul li a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#projects h2 {
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+}
+
+#contact-information h2 {
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+}
+
+#contact-information ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#contact-information ul li a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
 }
