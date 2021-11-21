@@ -109,6 +109,7 @@ header nav ul li a {
     background-color: cyan;
     color: black;
     text-decoration: underline;
+    align-items: center;
 }
 /* Projects End */
 
